@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEA5A4"
+    android:orientation="vertical"
+    tools:context=".PrestamoActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="13pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="°Prestamo°"
+        android:textAlignment="center"
+        android:textColor="#F8FFFEFE"
+        android:textSize="15pt"
+        app:fontFamily="sans-serif-black" />
+
+
+    <EditText
+        android:id="@+id/etxMontoPrestamo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total monto"
+        android:inputType="numberDecimal"
+        android:textColor="#FAFFFFFF"
+        android:textColorHint="#F7FCFAFA"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/etxInteresAnual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Interés Anual"
+        android:textColor="#FDFAF7F7"
+        android:textColorHint="#FCFAF8F8"
+        android:textSize="10pt"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/etxPlazoMeses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Plazos"
+        android:textColor="#F7F8F6F6"
+        android:textColorHint="#F8FAF7F7"
+        android:textSize="10pt"
+        android:inputType="number"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5pt" />
+
+    <Button
+        android:id="@+id/btnCalcularPrestamo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:background="#ffffff"
+        android:textSize="10pt" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5pt" />
+
+    <TextView
+        android:id="@+id/txvMontoPagoMen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monto de pagos mensual: "
+        android:textAlignment="center"
+        android:textColor="#FAFCF7F7"
+        android:textSize="9pt" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5pt" />
+
+    <TextView
+        android:id="@+id/txvInteres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interés mensual: "
+        android:textAlignment="center"
+        android:textColor="#F8F7F2F2"
+        android:textSize="9pt" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5pt" />
+
+    <TextView
+        android:id="@+id/txvPagoTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pago total: "
+        android:textAlignment="center"
+        android:textColor="#FAFCFAFA"
+        android:textSize="9pt" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5pt" />
+
+    <Button
+        android:id="@+id/btnRegresarPrestamo"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="Regresar"
+        android:textSize="7pt" />
+
+</LinearLayout>
