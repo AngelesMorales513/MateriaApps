@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itmList"
+        android:title="List View"/>
+    <item android:id="@+id/itmAct"
+            android:title="Activities"/>
+    <item android:id="@+id/itmShared"
+        android:title="Shared Preferences"/>
+    <item android:id="@+id/itmSql"
+        android:title="SQLite"/>
+    <item android:id="@+id/itmAudio"
+        android:title="Grabador de audio"/>
+    <item android:id="@+id/itmSalir"
+        android:title="Salir"/>
+</menu>

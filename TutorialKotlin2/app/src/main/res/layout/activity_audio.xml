@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".audio">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grabador de sonido"
+                android:textSize="20pt" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/audio" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="viewStart" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Codigo Kotlin"
+                android:textSize="15pt" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="La forma más sencilla de capturar audio en Android es mediante el grabador que provee el sistema operativo Android. Invocamos la aplicación de grabación y luego recuperamos el audio grabado.Tiene como ventaja que la interfaz le es familiar al usuario, ya que muchas aplicaciones utilizan esta característica."
+                android:textAlignment="center"
+                />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/activitycod" />
+
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <Button
+                android:id="@+id/btnRegresarAudio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F443"
+                android:text="Regresar"
+                android:textColor="#FFFFFF"
+                android:textSize="10pt" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

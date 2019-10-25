@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="itmList" type="id" />
+    <item name="itmShared" type="id" />
+    <item name="itmAct" type="id" />
+    <item name="itmSql" type="id" />
+    <item name="itmAudio" type="id" />
+    <item name="itmSalir" type="id" />
+</resources>

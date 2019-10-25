@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_ListView">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ListView"
+                android:textSize="20pt" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/list" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Se definen dos arreglos uno para el
+ListView y otro con los elementos para las acciones de estos.\n
+En seguida se crea un objeto de la clase ArrayAdapter para asi
+enlazarlo con el ListView en seguida se programa la accion a realizar
+al momento de interactuar con el ListView."
+                android:textAlignment="viewStart" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Una vista ListView visualiza una lista deslizable verticalmente de varios elementos, donde cada elemento puede definirse como un Layout .Su utilización es algo compleja, pero muy potente"
+                android:textAlignment="viewStart" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Codigo Kotlin"
+                android:textSize="15pt" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/listco" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+            <Button
+                android:id="@+id/btnRegresarList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F443"
+                android:text="Regresar"
+                android:textColor="#FFFFFF"
+                android:textSize="10pt" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5mm" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
